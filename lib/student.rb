@@ -1,5 +1,5 @@
 require_relative "./user.rb"
-require_relative "./teacher.rb"
+#require_relative "./teacher.rb"
 
 class Student < User
 
@@ -8,7 +8,11 @@ class Student < User
   end 
   
   def learn()
-    @knowledge << 
+  end 
+  
+  def knowledge
+    puts @knowledge
+  end 
 
 
 end
