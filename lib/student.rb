@@ -12,9 +12,9 @@ class Student < User
   end 
   
  
- # def knowledge
-    
-  #end 
+  def knowledge
+    @knowledge
+  end 
 
 
 end
