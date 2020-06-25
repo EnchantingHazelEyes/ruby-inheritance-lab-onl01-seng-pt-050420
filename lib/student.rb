@@ -11,9 +11,10 @@ class Student < User
     Knowledge << string
   end 
   
-  def knowledge
+ 
+ # def knowledge
     
-  end 
+  #end 
 
 
 end
